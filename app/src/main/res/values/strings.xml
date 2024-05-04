@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">hackMatch</string>
+    <string name="hackmatch">HackMatch</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="instiute_name">Instiute Name(optional)</string>
+    <string name="sample_event_description">Magnathon 2.0 is a 24-hour national level hackathon organized by IEEE SB CEV as part of College of Engineering Vadakara’s annual tech fest, Quasso Liberum 11. The primary focus revolves on finding the best solution for problems centered on sustainability, energy use, climate change, environmental monitoring, decentralization of climate data and anything related to interaction with the environment through technology for a sustainable future.
+Hackathon is a dynamic event where bright minds across various facets come together to tackle real world challenges, ideate groundbreaking solutions and bring innovative and novel ideas to life.
+Following on the groundbreaking success of the inaugural session of Magnathon conducted in 2022, the enthusiasm and excitement is only bound to be at its peak. Come and join us on this much awaited rollercoaster ride of brainstorming ideas and win exciting cash prizes worth 50K.</string>
+</resources>

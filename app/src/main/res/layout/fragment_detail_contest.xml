@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    tools:context=".ui.contest.DetailContestFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"
+            android:background="@android:color/transparent"/>
+
+        <TextView
+            android:id="@+id/event_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="AceHacks'24"
+            android:textSize="24sp"
+            android:layout_marginTop="18dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/event_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Hackathon"
+            android:textSize="16sp"
+            android:textColor="@color/grey"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/event_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="24/07/24 - 25/05/24"
+            android:textSize="16sp"
+            android:textColor="@color/grey"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/event_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Atharva College of Engineering"
+            android:layout_gravity="center_horizontal"
+            android:textSize="14sp"
+            android:drawableStart="@drawable/ic_location"
+            android:textColor="@color/grey"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/event_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            tools:text="@string/sample_event_description"
+            android:textSize="14sp"
+            android:textAlignment="viewStart"
+            android:layout_marginHorizontal="12dp"
+            android:textColor="@color/grey"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/create_team"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Team"
+
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginTop="18dp"
+            android:paddingVertical="12dp"
+            app:cornerRadius="8dp"/>
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal"
+            android:indeterminate="true"/>
+    </LinearLayout>
+
+</ScrollView>

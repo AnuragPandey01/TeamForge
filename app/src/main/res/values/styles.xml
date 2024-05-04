@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="custom_chip" parent="Widget.Material3.Chip.Assist">
+        <item name="android:layout_weight">1</item>
+        <item name="android:fillViewport">true</item>
+    </style>
+</resources>

@@ -1,0 +1,2 @@
+-keep @kotlinx.android.parcel.Parcelize public class *
+-keepnames class * extends android.os.Parcelable
